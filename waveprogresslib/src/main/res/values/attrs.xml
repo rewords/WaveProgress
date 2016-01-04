@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaveProgress">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="progress" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+        <attr name="shape_type" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <attr name="progress_anim_duration" format="integer"/>
+        <attr name="wave_color" format="color"/>
+        <attr name="wave_amplitude" format="float"/>
+        <attr name="title_top_size" format="dimension"/>
+        <attr name="title_center_size" format="dimension"/>
+        <attr name="title_bottom_size" format="dimension"/>
+        <attr name="title_top_color" format="color"/>
+        <attr name="title_center_color" format="color"/>
+        <attr name="title_bottom_color" format="color"/>
+        <attr name="title_top" format="string"/>
+        <attr name="title_center" format="string"/>
+        <attr name="title_bottom" format="string"/>
+    </declare-styleable>
+
+</resources>
